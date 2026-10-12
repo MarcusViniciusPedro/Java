@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.marcus.trabalhofinal_sistemareservas.controller.MenuEmpregadoController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="728.0">
+         <image>
+            <Image url="@Images/MenuEmpregado.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="340.0" layoutY="144.0" mnemonicParsing="false" onAction="#visualizarFuncionarios" prefHeight="47.0" prefWidth="116.0" style="-fx-background-color: #19B5B5;" text="Funcionários" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="346.0" layoutY="227.0" mnemonicParsing="false" onAction="#visualizarReservas" prefHeight="48.0" prefWidth="104.0" style="-fx-background-color: #19B5B5;" text="Reservas" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="299.0" layoutY="302.0" mnemonicParsing="false" onAction="#irTelaInicial" prefHeight="47.0" prefWidth="131.0" style="-fx-background-color: #19B5B5;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="669.0" layoutY="14.0" mnemonicParsing="false" onAction="#voltarTelaIntroducao" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #D28C47;" text="Sair" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="351.0" mnemonicParsing="false" onAction="#atualizarDadosFuncionario" style="-fx-background-color: #D28C47;" text="Atualizar Dados" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="313.0" mnemonicParsing="false" onAction="#visualizarContaFuncionario" prefHeight="21.0" prefWidth="69.0" style="-fx-background-color: #19B5B5;" text="Ver Conta" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="604.0" layoutY="351.0" mnemonicParsing="false" onAction="#apagarContaFuncionario" prefHeight="21.0" prefWidth="92.0" style="-fx-background-color: #E52421;" text="Apagar Conta" textFill="WHITE">
+         <font>
+            <Font name="Gentium Book Basic" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

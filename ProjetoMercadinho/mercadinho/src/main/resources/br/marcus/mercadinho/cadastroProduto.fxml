@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.marcus.mercadinho.controller.CadProdutoController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Cadastro de Produtos">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Label text="Descrição" />
+   <TextField fx:id="descricaoField" />
+   <Label text="Preço" />
+   <TextField fx:id="precoField" />
+   <Label text="Quantidade" />
+   <TextField fx:id="quantidadeField" />
+    <Button onAction="#CadastrarClique" text="Cadastrar">
+      <font>
+         <Font size="15.0" />
+      </font></Button>
+   <Label prefHeight="18.0" prefWidth="323.0" text="Caso queira Cadastrar um fornecedor clique no botão abaixo" />
+   <Button mnemonicParsing="false" onAction="#CadastrarFornecedor" text="Cadastrar Fornecedor">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Button>
+</VBox>
